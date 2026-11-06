@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alfred — privacy policy</title>
+<style>
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; }
+  h1, h2 { font-weight: 600; }
+  .uk { color: #555; border-top: 1px solid #ddd; margin-top: 32px; padding-top: 16px; }
+</style>
+</head>
+<body>
+<h1>Alfred — privacy policy</h1>
+<p>Last updated: 6 November 2026.</p>
+
+<p>Alfred is a personal macOS application used only by its author, who is also its only user.
+This policy describes what Alfred does with data from the author's Google account.</p>
+
+<h2>Data accessed</h2>
+<p>With the <code>gmail.readonly</code> permission Alfred reads email messages (headers, text,
+names and sizes of attachments) when its owner searches or opens a message. It has no permission
+to send, delete or change email, and it does not download attachments or remote images.</p>
+
+<h2>Where data is kept</h2>
+<p>Messages are processed on the owner's Mac only. Alfred does not run any server and does not
+store email anywhere else. The Google access token is kept in the macOS Keychain on that Mac.</p>
+
+<h2>Sharing</h2>
+<p>Alfred does not sell, rent or share Google user data. The only exception is the owner's own
+choice to ask the built-in AI assistant about a message: then a filtered text excerpt — with
+email addresses, verification codes and full links removed — is sent to Anthropic's Claude under
+the owner's own subscription. Google user data is not used to train any model by Alfred.</p>
+
+<p>Alfred's use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>Removing access</h2>
+<p>The owner can disconnect Alfred at any time (this also revokes the token at Google), or remove
+it at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p>Via the author's GitHub profile: <a href="https://github.com/Arsen7878">github.com/Arsen7878</a>.</p>
+
+<div class="uk" lang="uk">
+<h2>Українською</h2>
+<p>Альфред — особистий застосунок для macOS; його єдиний користувач — автор. З дозволом
+<code>gmail.readonly</code> він читає листи, лише коли власник шукає чи відкриває лист, і нічого в
+пошті не змінює. Листи обробляються лише на Mac власника; сервера немає; токен доступу — у
+Зв'язці ключів macOS. Дані Google нікому не продаються й не передаються, крім випадку, коли
+власник сам питає вбудованого ШІ-помічника: тоді очищений уривок тексту (без адрес, кодів і
+повних посилань) іде до Claude від Anthropic за підпискою власника. Відключити доступ можна в
+самому Альфреді або на myaccount.google.com/permissions.</p>
+</div>
+</body>
+</html>
